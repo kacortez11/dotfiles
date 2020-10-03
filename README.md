@@ -1,8 +1,8 @@
 # dotfiles
 Collection of dotfiles for linux customization
 
-# Notes on current Pop! OS customization
-Fresh install to-dos:
+## Notes on current Pop! OS customization
+### Fresh install to-dos:
 1.  Nautilus (Files) will not have 'New Document' option on right-click: 
 /home_dir/Templates: add a file such as 'New Document.txt' so that the option will appear on right click.
 2. If dual-booting, install rEFInd. https://rodsbooks.com/refind/installing.html#linux 
@@ -31,13 +31,13 @@ Command to update dconf values:
 ```bash
 dconf write /org/gnome/shell/extensions/pop-shell/toggle-stacking-global "['<Super><Shift>s']"
 ```
-Not installation but good to know: 
+### Not installation but good to know: 
 * To flush dconf values. `dconf dump /org/gnome/shell/extensions/pop-shell/global/`
 * *dconf* - Desktop configuration 
 * *gconf* - Gnome configuration
 
 
-## 09/28 Bugs/Wishlist Features/To find extensions: 
+### 09/28 Bugs/Wishlist Features/To find extensions: 
 * After gnome-shell restart via Alt-F2+r, the top bar disappears and I need to click Super 2x 
 * Find a way to remove border highlight when there is only 1 active window. 
 * Change accent color of active window selected when Super is pressed once. 
@@ -45,7 +45,7 @@ Not installation but good to know:
 
 Wifi Settings > IPv4 > Set DNS to manual: 8.8.8.8, 8.8.4.4
 
-## TeX related fixes applied: In .profilerc, .bashrc, set PATH so it includes texlive if it exists
+### TeX related fixes applied: In .profilerc, .bashrc, set PATH so it includes texlive if it exists
 ```bash
 PATH="/home/kacortez/texlive/2020/bin/x86_64-linux:$PATH"
 ```
