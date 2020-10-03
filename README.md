@@ -3,13 +3,20 @@ Collection of dotfiles for linux customization
 
 ## Notes on current Pop! OS customization
 ### Fresh install to-dos:
-1.  Nautilus (Files) will not have 'New Document' option on right-click: 
-/home_dir/Templates: add a file such as 'New Document.txt' so that the option will appear on right click.
+1.  Nautilus (Files) will not have 'New Document' option on right-click.
+    * `/{home_dir}/Templates`: add a file such as 'New Document.txt' so that the option will appear on right click.
 2. If dual-booting, install rEFInd. https://rodsbooks.com/refind/installing.html#linux 
     2.1. During restart to test Windows and Linux systems are both working properly, remove the extra prints by:
-        * Choose the icon to be removed / Del / Yes 
+        * Choose the icon to be removed / Click [Del] / Yes 
     2.2. refind-minimal is a pretty decent and minimal setup
-      Download refind-minimal theme. Copy to /boot/efi/EFI/refind/themes. Update config to add directory of theme
+        * [Download refind-minimal theme| https://github.com/EvanPurkhiser/rEFInd-minimal]. 
+        * Extract to `/boot/efi/EFI/refind/themes`. 
+        * Update config to add directory of theme,
+            ```bash
+            # To apply theme on rEFInd, enter path of theme.conf here.
+            #
+            include themes/rEFInd-minimal/theme.conf
+            ```
 3. Monday week start on calendar: set locale for date and time to en_GB (in .pam_environment file, i guess)
 4. CLI `full-update` alias to .bashrc: 
 ```bash
