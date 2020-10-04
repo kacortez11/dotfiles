@@ -18,6 +18,7 @@ Collection of dotfiles for linux customization
          include themes/rEFInd-minimal/theme.conf
          ```
 3. Monday week start on calendar: set locale for date and time to en_GB (in .pam_environment file, i guess)
+
 4. CLI `full-update` alias to .bashrc: 
 ```bash
 alias full-update='sudo apt update && sudo apt list --upgradable && sudo apt full-upgrade && sudo apt autoremove && flatpak update'
@@ -33,6 +34,8 @@ alias full-update='sudo apt update && sudo apt list --upgradable && sudo apt ful
 * Scrovol -- scroll volume https://extensions.gnome.org/extension/1519/scrovol/
 * Toggle Mute on Middle Click https://extensions.gnome.org/extension/1473/toggle-mute-on-middle-click/
 * For Lenovo, Conservation mode toggle in gnome: https://extensions.gnome.org/extension/2992/ideapad/
+
+6. Configure journalctl 
 
 Command to update dconf values: 
 ```bash
