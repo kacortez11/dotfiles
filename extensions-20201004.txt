@@ -1,0 +1,68 @@
+  Name: Example
+  URL: 
+  Name: Resource Monitor
+  URL: https://github.com/Ory0n/Resource_Monitor/
+  Name: CPU Power Manager
+  URL: https://github.com/martin31821/cpupower
+  Name: Permanent notifications
+  URL: https://github.com/bonzini/gnome-shell-permanent-notifications
+  Name: Bluetooth quick connect
+  URL: https://github.com/bjarosze/gnome-bluetooth-quick-connect
+  Name: GSConnect
+  URL: https://github.com/andyholmes/gnome-shell-extension-gsconnect/wiki
+  Name: Hide Activities Button
+  URL: 
+  Name: SettingsCenter
+  URL: https://github.com/ChrisLauinger77/XES-Settings-Center-Extension
+  Name: system-monitor
+  URL: https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet
+  Name: Task Widget
+  URL: https://gitlab.com/jmiskinis/gnome-shell-extension-task-widget
+  Name: Gnome-Shutdown Button
+  URL: 
+  Name: Transparent Notification
+  URL: https://github.com/ipaq3870/gsext-transparent-notification
+  Name: Status Area Horizontal Spacing
+  URL: https://gitlab.com/p91paul/status-area-horizontal-spacing-gnome-shell-extension
+  Name: Remove Dropdown Arrows
+  URL: http://github.com/mpdeimos/gnome-shell-remove-dropdown-arrows
+  Name: Window Is Ready - Notification Remover
+  URL: https://github.com/nunofarruca/WindowIsReady_Remover
+  Name: Scrovol
+  URL: https://github.com/andyholmes/gnome-shell-extension-scrovol/
+  Name: Calendar Improved
+  URL: https://codeberg.org/human.experience/gnome-shell-calendar-improved
+  Name: BackSlide
+  URL: https://bitbucket.org/LukasKnuth/backslide
+  Name: Multi Monitors Add-On
+  URL: https://github.com/spin83/multi-monitors-add-on.git
+  Name: Toggle Mute on Middle Click
+  URL: 
+  Name: Lenovo IdeaPad Goodies
+  URL: https://github.com/laurento/gnome-shell-extension-ideapad
+  Name: Sound Input & Output Device Chooser
+  URL: https://github.com/kgshank/gse-sound-output-device-chooser
+  Name: Extension Update Notifier
+  URL: https://github.com/franglais125/update-extensions
+  Name: Lock Keys
+  URL: https://github.com/kazysmaster/gnome-shell-extension-lockkeys
+  Name: Dash to Panel
+  URL: https://github.com/jderose9/dash-to-panel
+  Name: User Themes
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Name: Bring Out Submenu Of Power Off/Logout Button
+  URL: https://github.com/PRATAP-KUMAR/Bring-Out-Submenu-of-Power-Off-Logout
+  Name: Alt Tab: Raise First Window
+  URL: https://github.com/system76/alt-tab-raise-first-window
+  Name: Always Show Workspaces
+  URL: https://github.com/pop-os/gnome-shell-extension-always-show-workspaces
+  Name: Pop Battery Icon Fix
+  URL: https://github.com/pop-os/gnome-shell-extension-pop-battery-icon-fix
+  Name: Desktop Icons
+  Name: Pop Shell
+  Name: Pop Shop Details
+  URL: https://github.com/pop-os/gnome-shell-extension-pop-shop-details
+  Name: System76 Power
+  URL: https://github.com/pop-os/gnome-shell-extension-system76-power
+  Name: Ubuntu AppIndicators
+  URL: https://github.com/ubuntu/gnome-shell-extension-appindicator
