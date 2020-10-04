@@ -45,7 +45,7 @@ dconf write /org/gnome/shell/extensions/pop-shell/toggle-stacking-global "['<Sup
 * To flush dconf values. `dconf dump /org/gnome/shell/extensions/pop-shell/global/`
 * *dconf* - Desktop configuration 
 * *gconf* - Gnome configuration
-
+* Gnome Todo tasks are stored at: `~/.local/share/evolution/tasks/system/tasks.ics`
 
 ### 09/28 Bugs/Wishlist Features/To find extensions: 
 * After gnome-shell restart via Alt-F2+r, the top bar disappears and I need to click Super 2x 
