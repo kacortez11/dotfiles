@@ -53,9 +53,16 @@ dconf write /org/gnome/shell/extensions/pop-shell/toggle-stacking-global "['<Sup
 * Change accent color of active window selected when Super is pressed once. 
 * System Load Indicator (indicator-multiload) has a misunderstood feature: text appears beside the graph, should you choose to use SLI, add a blank indicator item (just play with it) to remove the text.
 
+## Common issues
 Wifi Settings > IPv4 > Set DNS to manual: 8.8.8.8, 8.8.4.4
 
 ### TeX related fixes applied: In .profilerc, .bashrc, set PATH so it includes texlive if it exists
 ```bash
 PATH="/home/kacortez/texlive/2020/bin/x86_64-linux:$PATH"
+```
+
+### Git related issues:
+* Configure git so it doesn't ask for your password everytime: update the URL of origin remote using SSH instead of HTTPS;
+```bash
+git remote set-url origin git@github.com:username/repo.git
 ```
