@@ -36,6 +36,15 @@ alias full-update='sudo apt update && sudo apt list --upgradable && sudo apt ful
 * For Lenovo, Conservation mode toggle in gnome: https://extensions.gnome.org/extension/2992/ideapad/
 
 6. Configure journalctl 
+7. To install spotify
+   ```bash
+   sudo apt install snapd
+   sudo snap install spotify
+   ```
+   To remove spotify:
+   ```bash
+   sudo snap remove spotify
+   ```
 
 Command to update dconf values: 
 ```bash
